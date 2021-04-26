@@ -20,46 +20,56 @@
 <body>
 <div class = "container">
   <!-- Navbar -->
-  <div class="navbar fixed-top navbar-light"> 
+  <div class="navbar fixed-top"> 
     <ul class="nav-item navbar-nav mr-auto inline-block">
+    <li></li>
+    <li></li>
+       <!--<a class="navbar-item"><img src="logo_fcfm.png" alt="Logo" style="width:40px;" class="img-thumbnail"></a>--> 
+      
       <!-- Home -->
-      <li class="nav-item home">
-        <a href="index.html">Home</a>
-      </li>
+      <a class="navbar-item" href="index.html"><img src="S32.png" alt="Logo" style="width:40px;" class="img-thumbnail"></a>
       <!-- Profile(maybe hacerlo una imagen redonda con un texto a lado)(-->
       <li class="nav-item profile">
         <a href="profile-page.html">Profile</a>
       </li>
-      <!-- Barra de busqueda -->
-      <li class="navbar-search">
-        <form class="form-inline my-2 my-lg-2">
-          <input class = "form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-          Search
-          </button>
-        </form>
-      </li>
+     
       <!-- Login -->
       <li class="navbar-login nav-item">
         <div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle btn-outline-success my-2 my-sm-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <button class="btn btn-secondary dropdown-toggle btn-outline-danger my-2 my-sm-0" type="button"
+           id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Login
           </button>
-          <div class = "dropdown-menu">
-            <form class="form-inline dropdown-form">
+          <div class = "dropdown-menu ">
+            <form class="form-inline dropleft-form">
               <a class = "login-label">User</a>
               <input class = "login-input" type="text">
               <a class = "login-label">Password</a>
               <input class = "login-input" type="password">
+              <button class="btn btn-secondary btn-outline-danger my-2 my-sm-0" aria-haspopup="true" aria-expanded="false">Log_in</button>
+              
+              <a class = "login-label">No tienes una cuenta? registrate</a>
+              <a href="sign-up.html" class="btn btn-secondary btn-outline-danger my-2 my-sm-0"
+               aria-haspopup="true" aria-expanded="false">Sign_Up</a>
             </form>
           </div>
         </div>
       </li>
-      <li class="navbar-sign-up nav-item">
-        <a href="sign-up.html" class="btn btn-secondary btn-outline-success my-2 my-sm-0" aria-haspopup="true" aria-expanded="false"> 
-          Sign Up
-        </a>
+
+      <!-- fcfm Logo -->
+      <li class="navbar-fcfm nav-item">
+        <a class="navbar-item"><img src="logo_fcfm.png" alt="Logo" style="width:40px;" class="img-thumbnail"></a>
       </li>
+      
+       <!-- Barra de busqueda -->
+       <li class="navbar-search">
+        <form class="form-inline my-2 my-lg-2">
+          <input class = "form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <a href="advanced-search.html" class="btn btn-secondary btn-outline-danger my-2 my-sm-0"
+          aria-haspopup="true" aria-expanded="false">Search</a>
+        </form>
+      </li>
+     
     </ul>
   </div>
 
@@ -68,7 +78,7 @@
   
   <li class="parameter">
     <div class="parameter dropdown">
-      <button class="btn btn-secondary dropdown-toggle btn-outline-success my-2 my-sm-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <button class="btn btn-secondary dropdown-toggle btn-outline-danger my-2 my-sm-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Categoría
       </button>
       <div class = "dropdown-menu">
@@ -79,10 +89,10 @@
 
   <div class="parameter dateParams">
     <p>Fecha inicio</p>
-    <input type="date">
+    <input type="date" class="border-danger">
 
     <p>Fecha final</p>
-    <input type="date">
+    <input type="date" class="border-danger">
   </div>
 
 </div>

@@ -160,4 +160,24 @@ li.navbar-sign-up
     float: right;
 }
 
+.navbar-fcfm{
+    float: right;
+}
+
+.navbar-search
+{
+    float: right;
+}
+
+.navbar-login
+{
+    float: right;
+}
+
+.footer {
+    background-color:#343434 ;
+    text-align: center;
+    color: white;
+    display: block;
+  }
 /* Navbar end */
