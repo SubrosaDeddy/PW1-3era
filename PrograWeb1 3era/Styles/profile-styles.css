@@ -16,6 +16,10 @@ body
     width: 100%;
 }
 
+.navbar-fcfm{
+    float: right;
+}
+
 .navbar-search
 {
     float: right;
@@ -137,6 +141,12 @@ li.navbar-sign-up
 }
 
 /* Navbar end */
+.footer {
+    background-color:#343434 ;
+    text-align: center;
+    color: white;
+    display: block;
+  }
 
 div.profile-info
 {
