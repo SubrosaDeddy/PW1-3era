@@ -1,0 +1,114 @@
+.navbar 
+{
+    background-color: rgb(70, 70, 70);
+    height: 60px;
+    width: 100%;
+}
+
+.navbar-nav
+{
+    width: 100%;
+}
+
+.navbar-search
+{
+    float: right;
+}
+
+.navbar-login
+{
+    float: right;
+}
+
+.dropdown
+{
+    margin-right: 35px;
+}
+
+.dropdown-form
+{
+    width: 250px;
+}
+
+/* Navbar links */
+.navbar li 
+{
+    color: #b6b3b3;
+    font-size : xx-large;
+    padding: 0px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+li.nav-item
+{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+
+li.nav-item :link
+{
+    color: rgb(180, 180, 180);
+}
+
+li.nav-item :visited
+{
+    color: rgb(180, 180, 180);
+}
+
+li.nav-item :hover
+{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+
+input.login-input
+{
+    width: 85%;
+    color: black !important;
+}
+
+a.login-label
+{
+    color: black !important;
+    width: 100%;
+    margin-left: 3%;
+}
+
+ul.inline-block
+{
+    display: inline-block;
+}
+
+div.dropdown-menu
+{
+    position: absolute !important;
+}
+
+div.inline-block
+{
+    display: inline-block;
+    width: 100%;
+}
+
+div.container-block{
+    margin-top: 60px;
+}
+input.profile-info-input{
+width: 25%;
+}
+img.NoteImage{
+    margin-top: 1%;
+    width: 500px;
+    height: 400px;
+    object-position: center;
+    object-fit: cover;
+}
+
+input.ShortDescription{
+     width: 50%;
+     height: 100px;
+     margin-top: auto;
+margin: auto;
+}

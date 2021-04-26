@@ -1,0 +1,180 @@
+body
+{
+    padding-top: 70px;    
+}
+
+/* Navbar begin */
+.navbar 
+{
+    background-color: rgb(70, 70, 70);
+    height: 60px;
+    width: 100%;
+}
+
+.navbar-nav
+{
+    width: 100%;
+}
+
+.navbar-search
+{
+    float: right;
+}
+
+.navbar-login
+{
+    float: right;
+}
+
+.dropdown
+{
+    margin-right: 35px;
+}
+
+.dropdown-form
+{
+    width: 250px;
+}
+
+/* Navbar links */
+.navbar li 
+{
+    color: #b6b3b3;
+    font-size : xx-large;
+    padding: 0px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+li.nav-item
+{
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 50px;
+}
+
+li.nav-item :link
+{
+    color: rgb(180, 180, 180);
+}
+
+li.nav-item :visited
+{
+    color: rgb(180, 180, 180);
+}
+
+li.nav-item :hover
+{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+
+input.login-input
+{
+    width: 85%;
+    color: black !important;
+}
+
+a.login-label
+{
+    color: black !important;
+    width: 100%;
+    margin-left: 3%;
+}
+
+ul.inline-block
+{
+    display: inline-block;
+}
+
+div.dropdown-menu
+{
+    position: absolute !important;
+}
+
+div.inline-block
+{
+    display: inline-block;
+    width: 100%;
+}
+
+div.noticia
+{
+    display: block;
+    margin-bottom: 15px;
+    border-width: 1px;
+    border-color: rgb(73, 73, 73);
+}
+
+p.card-text
+{
+    font-size: x-large;
+}
+
+a.link-noticia
+{
+    text-decoration: none;
+}
+
+a.link-noticia.link
+{
+    color: black;
+}
+
+a.link-noticia:visited
+{
+    color: black;
+}
+
+a.link-noticia:hover
+{
+    left: 40%;
+} 
+
+li.navbar-sign-up
+{
+    float: right;
+}
+
+/* Navbar end */
+
+
+img.card-img
+{
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+img.comment-img
+{
+    height: 150px;
+    width: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+p.news-body
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.comment-section
+{
+    border-color: black;
+    display: block;
+    margin-bottom: 30px;
+}
+
+div.comment
+{
+    border-color: black;
+    display: inline;
+    font-size: xx-large;
+}
