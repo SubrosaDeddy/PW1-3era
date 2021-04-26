@@ -10,6 +10,10 @@
     width: 100%;
 }
 
+.navbar-fcfm{
+    float: right;
+}
+
 .navbar-search
 {
     float: right;
@@ -112,3 +116,10 @@ input.ShortDescription{
      margin-top: auto;
 margin: auto;
 }
+
+.footer {
+    background-color:#343434 ;
+    text-align: center;
+    color: white;
+    display: block;
+  }
