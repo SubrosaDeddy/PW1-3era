@@ -102,6 +102,7 @@ div.container-block{
 input.profile-info-input{
 width: 25%;
 }
+
 img.NoteImage{
     margin-top: 1%;
     width: 500px;
@@ -109,8 +110,6 @@ img.NoteImage{
     object-position: center;
     object-fit: cover;
 }
-
-
 
 input.ShortDescription{
      width: 50%;
