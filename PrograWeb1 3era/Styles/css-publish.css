@@ -110,6 +110,8 @@ img.NoteImage{
     object-fit: cover;
 }
 
+
+
 input.ShortDescription{
      width: 50%;
      height: 100px;
@@ -123,3 +125,14 @@ margin: auto;
     color: white;
     display: block;
   }
+
+.button
+{
+    float: right;
+}
+
+.profile-info{
+    
+    text-align: center;
+}
+

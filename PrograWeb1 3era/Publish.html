@@ -73,13 +73,13 @@
 <!-- end of navbar -->
     
 <div class="container-block">
-<div>
+<div class="profile-info card">
     <legend for="emailInput" class="profile-info-element">TITLE</legend>
     <form class="Note-info-element">
         <input type="text" name="profileInput" id="emailInput" class="profile-info-input">
     </form>
     <img src="https://image.posta.com.mx/sites/default/files/2193585.jpg"
-                class="NoteImage">
+                class="NoteImage" style="width: 200px;height: 200px; object-position: center; object-fit: cover;">
 
     <legend for="emailInput" class="ShortDesciptionElement">Short description</legend>          
     <form class="Note-info-element" >
@@ -93,6 +93,17 @@
         <textarea  class="Complete Note" name="CompleteNote" id="CompleteNoteid" cols="80" rows="10"></textarea>
     </form>
 
+    <div class="parameter dropdown">
+      <button class="btn btn-secondary dropdown-toggle btn-outline-danger my-2 my-sm-0" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Categoría
+      </button>
+      <div class = "dropdown-menu">
+      </div>
+    </div>
+
+    <div class="Button-Publicar">
+      <a class="btn btn-outline-danger my-2 my-sm-0 button" type="submit">Publicar</a>
+  </div>
 </div>
 </div>
 </div>
@@ -100,7 +111,7 @@
 <div class="footer">
   <footer>
       <p><a>ProyectoPW</a></p>
-      <p><a href="mailto:awDeUwU@example.com">awDeUwU@example.com.com</a></p>   
+      <p><a href="mailto:awaDeUwU@example.com">awDeUwU@example.com.com</a></p>   
   </footer>
 </div>
 
